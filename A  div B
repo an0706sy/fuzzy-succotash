@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double A, B;
+	cin >> A >> B;
+
+	double div;
+	div = A / B;
+
+	cout << fixed;
+	cout.precision(20);
+
+	cout << div << endl;
+	return 0;
+}
