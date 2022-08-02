@@ -6,9 +6,9 @@ int main()
 	int A, B;
 	cin >> A >> B;
 
-	int sum;
-	sum = A - B;
-	cout << sum << endl;
+	int sub;
+	sub = A - B;
+	cout << sub << endl;
 
 	return 0;
 }
