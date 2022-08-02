@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int A, B;
+	cin >> A >> B;
+
+	int sum;
+	sum = A + B;
+	int sub;
+	sub = A - B;
+	int mul;
+	mul = A * B;
+	int div;
+	div = A / B;
+	int rem;
+	rem = A % B;
+
+	cout << sum << endl;
+	cout << sub << endl;
+	cout << mul << endl;
+	cout << div << endl;
+	cout << rem << endl;
+
+	return 0;
+}
