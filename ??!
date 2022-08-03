@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+	std::string id;
+	
+	std::cout << "아이디 입력: ";
+	std::cin >> id;
+	std::cout << id + "??!" << std::endl;
+
+	return 0;
+}
