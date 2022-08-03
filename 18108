@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+	int byears;
+	std::cin >> byears;
+
+	int years;
+	years = byears - 543;
+	std::cout << years;
+
+	return 0;
+}
