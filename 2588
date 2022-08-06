@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main()
+{
+	int A;
+	std::cin >> A;
+
+	int B;
+	std::cin >> B;
+
+	int C, D, E;
+	C = A * (B % 10);
+	D = A * ((B % 100) / 10);
+	E = A * (B / 100);
+	std::cout << C << std::endl;
+	std::cout << D << std::endl;
+	std::cout << E << std::endl;
+
+	int F;
+	F = C + D*10 + E*100;
+
+	std::cout << F << std::endl;
+
+	return 0;
+}
