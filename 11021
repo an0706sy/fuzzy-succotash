@@ -1,17 +1,20 @@
 #include <iostream>
 
+
 int main()
 {
 	int A;
 	std::cin >> A;
-
+	std::cin.tie(NULL);
+	std::ios::sync_with_stdio(false);
+	std::cout.tie(NULL);
 
 	for (int i = 0; i < A; i++)
 	{
 		int B, C;
 		std::cin >> B >> C;
 		int D = B + C;
-		std::cout << D << std::endl;
+		std::cout << "Case #"<<i+1<<": "<<D << "\n";
 	}
 
 	return 0;
