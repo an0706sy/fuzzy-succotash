@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main(void)
+{
+	int B, C;
+	
+	while (1)
+	{
+		std::cin >> B >> C;
+		if (std::cin.eof() ==true)
+		{
+			break;
+		}
+		std::cout << B + C << std::endl;
+	}
+
+	return 0;
+}
