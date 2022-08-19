@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main()
+{
+	
+	while (1)
+	{
+		int B, C;
+		std::cin >> B >> C;
+		int D = B + C;
+		
+		if ((B == 0) & (C == 0))
+		{
+			break;
+		}
+		else
+		{
+			std::cout << D << std::endl;
+		}
+	}
+
+
+	return 0;
+}
